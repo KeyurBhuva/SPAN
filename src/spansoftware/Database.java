@@ -25,6 +25,7 @@ public class Database {
            Connection con = DriverManager.getConnection(url, user, password);
            System.out.println("connection done.");
         Statement stmt_ = con.createStatement();
+        System.out.println("hii");
          return stmt_;
       }
    
